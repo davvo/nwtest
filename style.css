@@ -1,0 +1,52 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: calc(30% - 10px);
+    padding: 5px;
+}
+
+.right textarea {
+    position: absolute;
+    top: 30px;
+    bottom: 5px;
+    left: 5px;
+    width: calc(100% - 15px);
+    overflow: auto;
+    resize: none;
+}
+
+.right input[type=file] {
+    display:none;
+}
+
+.big-right .left {
+    width: 30%;
+}
+
+.big-right .right {
+    width: calc(70% - 10px);
+}

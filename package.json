@@ -1,0 +1,29 @@
+{
+  "name": "nwtest",
+  "version": "0.0.0",
+  "description": "Testing node-webkit",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodewebkit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "Testing node-webkit",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 300
+  },
+  "dependencies": {
+    "nodewebkit": "^0.10.5",
+    "mustache": "^0.8.2",
+    "async": "^0.9.0",
+    "jquery": "^2.1.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
