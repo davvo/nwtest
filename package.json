@@ -21,7 +21,8 @@
     "nodewebkit": "^0.10.5",
     "mustache": "^0.8.2",
     "async": "^0.9.0",
-    "jquery": "^2.1.1"
+    "jquery": "^2.1.1",
+    "jquery-ui": "^1.10.5"
   },
   "devDependencies": {},
   "author": "",
